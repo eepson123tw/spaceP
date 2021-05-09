@@ -1,5 +1,9 @@
+const baseEnv = process.env.NODE_ENV
 export default {
-
+    router: {
+        // middleware: 'routerConfig',
+        base: baseEnv === 'development' ? '/' : '/spaceP/'
+    },
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
         title: 'spaceP',
