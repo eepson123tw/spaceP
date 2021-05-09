@@ -1,0 +1,39 @@
+{
+    "name": "spaceP",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate"
+    },
+    "dependencies": {
+        "@nuxtjs/axios": "^5.13.1",
+        "core-js": "^3.9.1",
+        "nuxt": "^2.15.3",
+        "nuxt-rfg-icon": "^0.6.4"
+    },
+    "devDependencies": {
+        "@nuxtjs/eslint-config": "^2.0.2",
+        "@nuxtjs/style-resources": "^1.0.0",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^6.8",
+        "eslint-config-airbnb-base": "^14.0.0",
+        "eslint-import-resolver-nuxt": "^0.1.5",
+        "eslint-loader": "^3.0.3",
+        "eslint-plugin-import": "^2.19.1",
+        "eslint-plugin-nuxt": ">=0.4.2",
+        "eslint-plugin-vue": "^6.0.1",
+        "fibers": "^5.0.0",
+        "sass": "^1.32.12",
+        "sass-loader": "^10.1.1",
+        "stylelint": "^13.4.0",
+        "stylelint-config-prettier": "^8.0.1",
+        "stylelint-config-sass-guidelines": "^7.0.0",
+        "stylelint-config-standard": "^20.0.0",
+        "stylelint-order": "^4.0.0",
+        "stylelint-scss": "^3.17.2",
+        "stylelint-webpack-plugin": "^2.0.0"
+    }
+}
