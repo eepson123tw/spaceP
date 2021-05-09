@@ -6,7 +6,8 @@
         "dev": "nuxt",
         "build": "nuxt build",
         "start": "nuxt start",
-        "generate": "nuxt generate"
+        "generate": "nuxt generate",
+        "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
     },
     "dependencies": {
         "@nuxtjs/axios": "^5.13.1",
@@ -26,6 +27,7 @@
         "eslint-plugin-nuxt": ">=0.4.2",
         "eslint-plugin-vue": "^6.0.1",
         "fibers": "^5.0.0",
+        "push-dir": "^0.4.1",
         "sass": "^1.32.12",
         "sass-loader": "^10.1.1",
         "stylelint": "^13.4.0",
