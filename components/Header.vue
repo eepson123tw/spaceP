@@ -1,47 +1,47 @@
 <template>
     <div id="header">
         <div>
-            <nuxt-link to="/" class="logo">
+            <nuxt-link class="logo" to="/">
                 <img src="@/assets/images/logo.png" alt="">
             </nuxt-link>
 
             <ul id="navigation">
                 <li class="selected">
-                    <nuxt-link to="/">
+                    <nuxt-link to="/" exact class="navBar">
                         Home
                     </nuxt-link>
                 </li>
                 <li>
-                    <nuxt-link to="about.html">
+                    <nuxt-link exact to="/about" class="navBar">
                         About
                     </nuxt-link>
                 </li>
                 <li class="menu">
-                    <nuxt-link to="projects.html">
+                    <nuxt-link to="/projects" class="navBar">
                         Projects
                     </nuxt-link>
                     <ul class="primary">
                         <li>
-                            <nuxt-link to="proj1.html">
+                            <nuxt-link exact to="/projects/project1" class="navBar">
                                 proj 1
                             </nuxt-link>
                         </li>
                     </ul>
                 </li>
                 <li class="menu">
-                    <nuxt-link to="blog.html">
+                    <nuxt-link to="/blog" class="navBar">
                         Blog
                     </nuxt-link>
                     <ul class="secondary">
                         <li>
-                            <nuxt-link to="singlepost.html">
+                            <nuxt-link exact to="singlepost" class="navBar">
                                 Single post
                             </nuxt-link>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <nuxt-link to="contact.html">
+                    <nuxt-link to="/contact" exact class="navBar">
                         Contact
                     </nuxt-link>
                 </li>
@@ -60,7 +60,7 @@ export default {}
     margin: 0;
     padding: 0;
     width: 100%;
-    min-height: 60px;
+    min-height: 65px;
     background-image: url('@/assets/images/bg-transparent1.png');
 }
 
@@ -68,7 +68,7 @@ export default {}
     margin: 0 auto;
     padding: 0 10px;
     max-width: 940px;
-    min-height: 60px;
+    min-height: 65px;
 }
 
 #header div a.logo {
@@ -77,7 +77,7 @@ export default {}
     margin: 0 44px 0 0;
     padding: 0;
     width: 304px;
-    height: 60px;
+    height: 65px;
 }
 
 #header div a img {
@@ -116,7 +116,7 @@ export default {}
     font-weight: normal;
     text-align: center;
     color: #ffffff;
-    line-height: 59px;
+    line-height: 65px;
     text-transform: uppercase;
 }
 
@@ -125,7 +125,17 @@ export default {}
     background-color: #620031;
 }
 
-#header div ul li.selected a {
+/* #header div ul li.selected a {
+    color: #a3a3a3;
+    background-color: #000000;
+} */
+
+.navBar.nuxt-link-active {
+    color: #a3a3a3;
+    background-color: #000000;
+}
+
+.navBar.nuxt-link-exact-active {
     color: #a3a3a3;
     background-color: #000000;
 }

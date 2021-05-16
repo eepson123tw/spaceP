@@ -141,8 +141,7 @@ export default {
     padding: 0 100px 0 399px;
     width: 100%;
     font-size: 60px;
-
-    /* font-family: audiowide-regular-webfont; */
+    font-family: audiowide-regular-webfont, sans-serif;
     font-weight: normal;
     text-align: center;
     text-align: right;
@@ -160,8 +159,7 @@ export default {
     padding: 0 170px 0 506px;
     width: 100%;
     font-size: 43px;
-
-    /* font-family: Arial; */
+    font-family: Arial, sans-serif;
     font-weight: normal;
     text-align: right;
     color: #ffffff;
@@ -179,8 +177,7 @@ export default {
     width: 180px;
     height: 49px;
     font-size: 18px;
-
-    /* font-family: Arial; */
+    font-family: Arial, sans-serif;
     font-weight: normal;
     text-align: center;
     color: #a3a3a3;
@@ -204,8 +201,7 @@ export default {
     width: 940px;
     min-height: 27px;
     font-size: 23px;
-
-    /* font-family: audiowide-regular-webfont; */
+    font-family: audiowide-regular-webfont, sans-serif;
     font-weight: normal;
     text-align: center;
     color: #a3a3a3;
@@ -279,8 +275,7 @@ export default {
     padding: 0;
     width: 780px;
     font-size: 32px;
-
-    /* font-family: audiowide-regular-webfont; */
+    font-family: audiowide-regular-webfont, sans-serif;
     font-weight: normal;
     text-align: center;
     color: #ffffff;
@@ -294,8 +289,7 @@ export default {
     padding: 0;
     width: 780px;
     font-size: 18px;
-
-    /* font-family: Arial; */
+    font-family: Arial, sans-serif;
     font-weight: normal;
     text-align: center;
     color: #ffffff;
@@ -306,8 +300,7 @@ export default {
     margin: 0 auto;
     padding: 0;
     font-size: 18px;
-
-    /* font-family: Arial; */
+    font-family: Arial, sans-serif;
     font-weight: normal;
     text-decoration: underline;
     color: #ffffff;

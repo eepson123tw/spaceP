@@ -17,7 +17,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 html {
     font-size: 16px;
     font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
@@ -55,6 +55,20 @@ a:active {
 *::after {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#page {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    padding-top: 65px;
+    width: auto;
+    background: url('@/assets/images/bg-home.jpg') no-repeat scroll center top
+        #000000;
+    background-size: cover;
+    z-index: 3;
 }
 
 .button--green {

@@ -1,4 +1,5 @@
-const baseEnv = process.env.NODE_ENV
+// const baseEnv = process.env.NODE_ENV
+const baseEnv = 'development'
 export default {
     router: {
         // middleware: 'routerConfig',
@@ -8,7 +9,7 @@ export default {
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
         title: 'spaceP',
-        titleTemplate: '%s|' + "站名",
+        titleTemplate: '%s|' + "spaceP",
         htmlAttrs: {
             lang: 'en'
         },
@@ -30,7 +31,10 @@ export default {
     ],
 
     // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-    plugins: [],
+    plugins: [{
+        src: '@/plugins/Aos',
+        ssr: false
+    }],
 
     // Auto import components: https://go.nuxtjs.dev/config-components
     components: true,
