@@ -14,7 +14,13 @@
         >
             1
         </div>
-        <div class="box">
+        <div
+            class="box"
+            data-aos-offset="200"
+            data-aos="slide-up"
+            data-aos-anchor-placement="top-center"
+            data-aos-easing="ease-in-out"
+        >
             2
         </div>
         <div class="box">
